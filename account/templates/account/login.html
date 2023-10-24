@@ -1,11 +1,16 @@
-{% extends "base.html" %}
+{% comment %} {% extends "base.html" %}
 
 {% block title %}Login{% endblock title %}
 
 {% block content %}
 
-    <h1>Log IN Page</h1>
-
+    <h1>Login</h1>
+    <form method="post">
+        {{form.as_p}}
+        {% csrf_token %}
+         <input type="submit" value="Login">
+    </form>
+    
 {% endblock content %}
 
 
@@ -13,4 +18,4 @@
 
 
 
-
+ {% endcomment %}

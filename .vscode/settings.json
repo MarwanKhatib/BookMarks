@@ -1,0 +1,12 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  // "python.formatting.provider": "none",
+  // "[django-html]": {
+  //   "editor.formatOnSave": true,
+  //   "editor.defaultFormatter": "junstyle.vscode-django-support"
+  // },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
+}
